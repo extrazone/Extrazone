@@ -68,13 +68,13 @@ async def start(client, message):
         await asyncio.sleep(0.4)
         await m.edit_text("👀")
         await asyncio.sleep(0.5)
-        await m.edit_text("⚡")
-        await asyncio.sleep(0.5)
+        await m.reply_sticker("CAACAgUAAxkBAAITtWXr7ykgg6JCDZuaz9FSOX0xbAu6AALEAgACBG2gVsF1Ng9n9CrHNAQ")
+        await asyncio.sleep(1)
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAIRvGXcppYOWEut1jW4a85ib5L8umsRAAIKAAPBJDExDF3pk_t_hK40BA") 
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.5)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -138,13 +138,13 @@ async def start(client, message):
         await asyncio.sleep(0.4)
         await m.edit_text("👀")
         await asyncio.sleep(0.5)
-        await m.edit_text("⚡")
-        await asyncio.sleep(0.5)
+        await m.reply_sticker("CAACAgUAAxkBAAITtWXr7ykgg6JCDZuaz9FSOX0xbAu6AALEAgACBG2gVsF1Ng9n9CrHNAQ")
+        await asyncio.sleep(1)
         await m.edit_text("<b><i>ꜱᴛᴀʀᴛɪɴɢ...</i></b>")
         await asyncio.sleep(0.4)
         await m.delete()        
         m=await message.reply_sticker("CAACAgUAAxkBAAIRvGXcppYOWEut1jW4a85ib5L8umsRAAIKAAPBJDExDF3pk_t_hK40BA") 
-        await asyncio.sleep(1)
+        await asyncio.sleep(1.5)
         await m.delete()
         await message.reply_photo(
             photo=random.choice(PICS),
