@@ -2098,7 +2098,7 @@ async def auto_filter(client, msg, spoll=False):
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f'Seaching for {search} 🔎', url=f"https://t.me/beautyofthemoviesx")]]) 
         )
         settings = await get_settings(message.chat.id)
-        await msg.message.delete()
+        await m.delete()
     pre = 'filep' if settings['file_secure'] else 'file'
     key = f"{message.chat.id}-{message.id}"
     FRESH[key] = search
