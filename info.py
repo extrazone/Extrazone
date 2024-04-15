@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://telegra.ph/file/96a22375949b6a0552361.jpg')
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'link2paisa.com'))
 STREAM_API = (environ.get('STREAM_API', 'fb36d49553dbf50089557d89df1ae468c7578db2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/beautyofthemovie/4'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/beautyofthemovie/5'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
@@ -56,7 +56,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/beautyofthemovie/4') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/beautyofthemovie/5') # How to open tutorial link for verification
 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'link2paisa.com')
